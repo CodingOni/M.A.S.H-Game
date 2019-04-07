@@ -98,7 +98,7 @@ form input[type=submit] {
 .hide {
   opacity: 0;
   height: 0;
-  
+
 }
 
 .show {
@@ -145,4 +145,16 @@ form input[type=submit] {
     border-radius: 6px;
     font-weight: bold;
 
+}
+
+@media only screen and (min-width: 600px) {
+  #refresh {
+    margin-left: 19.5em;
+  }
+  #button{
+  margin: 10px 20px 30px 320px;
+}
+  #myBtn{
+    margin-left: 20.2em;
+  }
 }
